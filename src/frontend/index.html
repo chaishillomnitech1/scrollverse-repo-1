@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScrollVerse</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">ScrollVerse</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#tokens">Tokens</a>
+        <a href="#nfts">NFTs</a>
+        <a href="#connect" id="connect-btn">Connect Wallet</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <h2>Decentralized. Community-Governed. Infinite.</h2>
+        <p>ScrollVerse is a multi-chain Web3 platform for digital assets, governance, and community.</p>
+        <a href="#connect" class="btn-primary">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About ScrollVerse</h2>
+        <p>
+          ScrollVerse provides a decentralized hub built on Ethereum, Polygon, and compatible EVM chains.
+          Participate in governance with <strong>$SCROLL</strong> tokens, collect unique
+          <strong>ScrollVerse NFTs</strong>, and engage with a growing community.
+        </p>
+      </div>
+    </section>
+
+    <section id="tokens" class="section alt">
+      <div class="container">
+        <h2>$SCROLL Token</h2>
+        <ul>
+          <li>ERC-20 governance token</li>
+          <li>Max supply: 1,000,000,000 SCROLL</li>
+          <li>Used for community governance and platform rewards</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="nfts" class="section">
+      <div class="container">
+        <h2>ScrollVerse NFTs</h2>
+        <p>ERC-721 unique digital collectibles representing membership, achievements, and community roles within the ScrollVerse ecosystem.</p>
+        <div id="nft-grid" class="nft-grid">
+          <!-- NFT cards rendered dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <section id="connect" class="section alt">
+      <div class="container">
+        <h2>Connect Your Wallet</h2>
+        <p id="wallet-status">No wallet connected.</p>
+        <button class="btn-primary" id="connect-wallet-btn">Connect MetaMask</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 ScrollVerse. Open-source under the project license.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
